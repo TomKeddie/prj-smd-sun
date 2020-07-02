@@ -1,0 +1,445 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L smd-star:NE555 U1
+U 1 1 5EFD01E2
+P 3600 3350
+F 0 "U1" H 3850 3700 50  0000 C CNN
+F 1 "NE555" H 3250 3700 50  0000 C CNN
+F 2 "smd-star:SO-8_3.9x4.9mm_P1.27mm" H 3600 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3600 3350 50  0001 C CNN
+	1    3600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L smd-star:4017 U2
+U 1 1 5EFD0D05
+P 5650 3650
+F 0 "U2" H 5900 4300 50  0000 C CNN
+F 1 "4017" H 5400 4300 50  0000 C CNN
+F 2 "smd-star:SOIC-16_3.9x9.9mm_P1.27mm" H 5650 3650 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3150 5150 3150
+$Comp
+L power:+BATT #PWR03
+U 1 1 5EFD1B55
+P 3600 2750
+F 0 "#PWR03" H 3600 2600 50  0001 C CNN
+F 1 "+BATT" H 3615 2923 50  0000 C CNN
+F 2 "" H 3600 2750 50  0001 C CNN
+F 3 "" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR08
+U 1 1 5EFD291B
+P 5650 2750
+F 0 "#PWR08" H 5650 2600 50  0001 C CNN
+F 1 "+BATT" H 5665 2923 50  0000 C CNN
+F 2 "" H 5650 2750 50  0001 C CNN
+F 3 "" H 5650 2750 50  0001 C CNN
+	1    5650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-BATT #PWR04
+U 1 1 5EFD57EA
+P 3600 4650
+F 0 "#PWR04" H 3600 4500 50  0001 C CNN
+F 1 "-BATT" H 3615 4823 50  0000 C CNN
+F 2 "" H 3600 4650 50  0001 C CNN
+F 3 "" H 3600 4650 50  0001 C CNN
+	1    3600 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-BATT #PWR09
+U 1 1 5EFD6B3B
+P 5650 4650
+F 0 "#PWR09" H 5650 4500 50  0001 C CNN
+F 1 "-BATT" H 5665 4823 50  0000 C CNN
+F 2 "" H 5650 4650 50  0001 C CNN
+F 3 "" H 5650 4650 50  0001 C CNN
+	1    5650 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 3550 3000 3550
+Wire Wire Line
+	3000 3550 3000 2750
+$Comp
+L power:+BATT #PWR02
+U 1 1 5EFD7C6B
+P 3000 2750
+F 0 "#PWR02" H 3000 2600 50  0001 C CNN
+F 1 "+BATT" H 3015 2923 50  0000 C CNN
+F 2 "" H 3000 2750 50  0001 C CNN
+F 3 "" H 3000 2750 50  0001 C CNN
+	1    3000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3550 4200 3550
+Wire Wire Line
+	4200 3550 4200 3900
+Wire Wire Line
+	4200 3900 2900 3900
+Wire Wire Line
+	2900 3900 2900 3150
+Wire Wire Line
+	2900 3150 3100 3150
+$Comp
+L smd-star:R R1
+U 1 1 5EFD9130
+P 4600 2900
+F 0 "R1" H 4670 2946 50  0000 L CNN
+F 1 "47k" H 4670 2855 50  0000 L CNN
+F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 2900 50  0001 C CNN
+F 3 "~" H 4600 2900 50  0001 C CNN
+	1    4600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L smd-star:R R2
+U 1 1 5EFDA69B
+P 4600 3650
+F 0 "R2" H 4670 3696 50  0000 L CNN
+F 1 "47k" H 4670 3605 50  0000 L CNN
+F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 3650 50  0001 C CNN
+F 3 "~" H 4600 3650 50  0001 C CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L smd-star:C C1
+U 1 1 5EFDAF79
+P 2800 4050
+F 0 "C1" H 2400 4100 50  0000 L CNN
+F 1 "0.01uF" H 2400 4000 50  0000 L CNN
+F 2 "smd-star:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 3900 50  0001 C CNN
+F 3 "~" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L smd-star:C C2
+U 1 1 5EFDE976
+P 4600 4050
+F 0 "C2" H 4715 4096 50  0000 L CNN
+F 1 "10uF" H 4715 4005 50  0000 L CNN
+F 2 "smd-star:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4638 3900 50  0001 C CNN
+F 3 "~" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3800 4600 3900
+Wire Wire Line
+	4200 3900 4600 3900
+Connection ~ 4200 3900
+Connection ~ 4600 3900
+Wire Wire Line
+	4600 3050 4600 3350
+Wire Wire Line
+	4100 3350 4600 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	4600 3350 4600 3500
+$Comp
+L power:-BATT #PWR06
+U 1 1 5EFE0929
+P 4600 4650
+F 0 "#PWR06" H 4600 4500 50  0001 C CNN
+F 1 "-BATT" H 4615 4823 50  0000 C CNN
+F 2 "" H 4600 4650 50  0001 C CNN
+F 3 "" H 4600 4650 50  0001 C CNN
+	1    4600 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-BATT #PWR01
+U 1 1 5EFE0C8B
+P 2800 4650
+F 0 "#PWR01" H 2800 4500 50  0001 C CNN
+F 1 "-BATT" H 2815 4823 50  0000 C CNN
+F 2 "" H 2800 4650 50  0001 C CNN
+F 3 "" H 2800 4650 50  0001 C CNN
+	1    2800 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+BATT #PWR05
+U 1 1 5EFE103E
+P 4600 2750
+F 0 "#PWR05" H 4600 2600 50  0001 C CNN
+F 1 "+BATT" H 4615 2923 50  0000 C CNN
+F 2 "" H 4600 2750 50  0001 C CNN
+F 3 "" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2750 3600 2950
+Wire Wire Line
+	3100 3350 2800 3350
+Wire Wire Line
+	2800 3350 2800 3900
+Wire Wire Line
+	2800 4200 2800 4650
+Wire Wire Line
+	3600 3750 3600 4650
+Wire Wire Line
+	4600 4200 4600 4650
+Wire Wire Line
+	5650 2750 5650 2850
+Wire Wire Line
+	6150 3950 6300 3950
+Wire Wire Line
+	6300 3950 6300 4600
+Wire Wire Line
+	6300 4600 5050 4600
+Wire Wire Line
+	5050 4600 5050 3450
+Wire Wire Line
+	5050 3450 5150 3450
+$Comp
+L smd-star:LED D1
+U 1 1 5EFF47F1
+P 6500 4000
+F 0 "D1" V 6600 4000 50  0000 R CNN
+F 1 "LED" V 6448 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 4000 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D2
+U 1 1 5EFF6B7E
+P 6700 4000
+F 0 "D2" V 6800 4000 50  0000 R CNN
+F 1 "LED" V 6648 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6700 4000 50  0001 C CNN
+F 3 "~" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D3
+U 1 1 5EFF6FCA
+P 6900 4000
+F 0 "D3" V 7000 4000 50  0000 R CNN
+F 1 "LED" V 6848 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 4000 50  0001 C CNN
+F 3 "~" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D4
+U 1 1 5EFF7386
+P 7100 4000
+F 0 "D4" V 7200 4000 50  0000 R CNN
+F 1 "LED" V 7048 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 4000 50  0001 C CNN
+F 3 "~" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D5
+U 1 1 5EFF91CC
+P 7300 4000
+F 0 "D5" V 7400 4000 50  0000 R CNN
+F 1 "LED" V 7248 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 4000 50  0001 C CNN
+F 3 "~" H 7300 4000 50  0001 C CNN
+	1    7300 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D6
+U 1 1 5EFF91D6
+P 7500 4000
+F 0 "D6" V 7600 4000 50  0000 R CNN
+F 1 "LED" V 7448 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7500 4000 50  0001 C CNN
+F 3 "~" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D7
+U 1 1 5EFF91E0
+P 7700 4000
+F 0 "D7" V 7800 4000 50  0000 R CNN
+F 1 "LED" V 7648 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7700 4000 50  0001 C CNN
+F 3 "~" H 7700 4000 50  0001 C CNN
+	1    7700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L smd-star:LED D8
+U 1 1 5EFF91EA
+P 7900 4000
+F 0 "D8" V 8000 4000 50  0000 R CNN
+F 1 "LED" V 7848 3883 50  0001 R CNN
+F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7900 4000 50  0001 C CNN
+F 3 "~" H 7900 4000 50  0001 C CNN
+	1    7900 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3850 6500 3850
+Wire Wire Line
+	6150 3750 6700 3750
+Wire Wire Line
+	6700 3750 6700 3850
+Wire Wire Line
+	6150 3650 6900 3650
+Wire Wire Line
+	6900 3650 6900 3850
+Wire Wire Line
+	6150 3550 7100 3550
+Wire Wire Line
+	7100 3550 7100 3850
+Wire Wire Line
+	6150 3450 7300 3450
+Wire Wire Line
+	7300 3450 7300 3850
+Wire Wire Line
+	6150 3350 7500 3350
+Wire Wire Line
+	7500 3350 7500 3850
+Wire Wire Line
+	6150 3250 7700 3250
+Wire Wire Line
+	7700 3250 7700 3850
+Wire Wire Line
+	6150 3150 7900 3150
+Wire Wire Line
+	7900 3150 7900 3850
+Wire Wire Line
+	6500 4150 6500 4250
+Wire Wire Line
+	6500 4250 6700 4250
+Wire Wire Line
+	7900 4250 7900 4150
+Wire Wire Line
+	7700 4150 7700 4250
+Connection ~ 7700 4250
+Wire Wire Line
+	7700 4250 7900 4250
+Wire Wire Line
+	7500 4150 7500 4250
+Connection ~ 7500 4250
+Wire Wire Line
+	7500 4250 7700 4250
+Wire Wire Line
+	7300 4150 7300 4250
+Connection ~ 7300 4250
+Wire Wire Line
+	7300 4250 7500 4250
+Wire Wire Line
+	7100 4150 7100 4250
+Connection ~ 7100 4250
+Wire Wire Line
+	7100 4250 7300 4250
+Wire Wire Line
+	6900 4150 6900 4250
+Connection ~ 6900 4250
+Wire Wire Line
+	6900 4250 7100 4250
+Wire Wire Line
+	6700 4150 6700 4250
+Connection ~ 6700 4250
+Wire Wire Line
+	6700 4250 6900 4250
+$Comp
+L smd-star:R R3
+U 1 1 5F0080E1
+P 6500 4400
+F 0 "R3" H 6570 4446 50  0000 L CNN
+F 1 "220R" H 6570 4355 50  0000 L CNN
+F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 4400 50  0001 C CNN
+F 3 "~" H 6500 4400 50  0001 C CNN
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 4250
+$Comp
+L power:-BATT #PWR010
+U 1 1 5F00953C
+P 6500 4650
+F 0 "#PWR010" H 6500 4500 50  0001 C CNN
+F 1 "-BATT" H 6515 4823 50  0000 C CNN
+F 2 "" H 6500 4650 50  0001 C CNN
+F 3 "" H 6500 4650 50  0001 C CNN
+	1    6500 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-BATT #PWR07
+U 1 1 5F020625
+P 4900 4650
+F 0 "#PWR07" H 4900 4500 50  0001 C CNN
+F 1 "-BATT" H 4915 4823 50  0000 C CNN
+F 2 "" H 4900 4650 50  0001 C CNN
+F 3 "" H 4900 4650 50  0001 C CNN
+	1    4900 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 3250 4900 3250
+Wire Wire Line
+	4900 3250 4900 4650
+NoConn ~ 6150 4050
+NoConn ~ 6150 4250
+Wire Wire Line
+	5650 4550 5650 4650
+Wire Wire Line
+	6500 4550 6500 4650
+Text Label 6200 3150 0    50   ~ 0
+LED0
+Text Label 6200 3250 0    50   ~ 0
+LED1
+Text Label 6200 3350 0    50   ~ 0
+LED2
+Text Label 6200 3450 0    50   ~ 0
+LED3
+Text Label 6200 3550 0    50   ~ 0
+LED4
+Text Label 6200 3650 0    50   ~ 0
+LED5
+Text Label 6200 3750 0    50   ~ 0
+LED6
+Text Label 6200 3850 0    50   ~ 0
+LED7
+Text Label 5150 4600 0    50   ~ 0
+RESET
+Text Label 3600 4500 1    50   ~ 0
+-BATT
+Text Label 3000 3050 1    50   ~ 0
++BATT
+Text Label 7900 4250 0    50   ~ 0
+LED_R
+$EndSCHEMATC
