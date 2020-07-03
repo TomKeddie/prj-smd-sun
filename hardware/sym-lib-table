@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name smd-star)(type Legacy)(uri ${KIPRJMOD}/smd-star.lib)(options "")(descr ""))
+  (lib (name smd-sun)(type Legacy)(uri ${KIPRJMOD}/smd-sun.lib)(options "")(descr ""))
 )

@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L smd-star:NE555 U1
+L smd-sun:NE555 U1
 U 1 1 5EFD01E2
 P 3600 3350
 F 0 "U1" H 3850 3700 50  0000 C CNN
 F 1 "NE555" H 3250 3700 50  0000 C CNN
-F 2 "smd-star:SO-8_3.9x4.9mm_P1.27mm" H 3600 3350 50  0001 C CNN
+F 2 "smd-sun:SO-8_3.9x4.9mm_P1.27mm" H 3600 3350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 3600 3350 50  0001 C CNN
 	1    3600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd-star:4017 U2
+L smd-sun:4017 U2
 U 1 1 5EFD0D05
 P 5650 3650
 F 0 "U2" H 5900 4300 50  0000 C CNN
 F 1 "4017" H 5400 4300 50  0000 C CNN
-F 2 "smd-star:SOIC-16_3.9x9.9mm_P1.27mm" H 5650 3650 50  0001 C CNN
+F 2 "smd-sun:SOIC-16_3.9x9.9mm_P1.27mm" H 5650 3650 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 5650 3650 50  0001 C CNN
 	1    5650 3650
 	1    0    0    -1  
@@ -107,45 +107,45 @@ Wire Wire Line
 Wire Wire Line
 	2900 3150 3100 3150
 $Comp
-L smd-star:R R1
+L smd-sun:R R1
 U 1 1 5EFD9130
 P 4600 2900
 F 0 "R1" H 4670 2946 50  0000 L CNN
 F 1 "47k" H 4670 2855 50  0000 L CNN
-F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 2900 50  0001 C CNN
+F 2 "smd-sun:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 2900 50  0001 C CNN
 F 3 "~" H 4600 2900 50  0001 C CNN
 	1    4600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd-star:R R2
+L smd-sun:R R2
 U 1 1 5EFDA69B
 P 4600 3650
 F 0 "R2" H 4670 3696 50  0000 L CNN
 F 1 "47k" H 4670 3605 50  0000 L CNN
-F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 3650 50  0001 C CNN
+F 2 "smd-sun:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 3650 50  0001 C CNN
 F 3 "~" H 4600 3650 50  0001 C CNN
 	1    4600 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd-star:C C1
+L smd-sun:C C1
 U 1 1 5EFDAF79
 P 2800 4050
 F 0 "C1" H 2400 4100 50  0000 L CNN
 F 1 "0.01uF" H 2400 4000 50  0000 L CNN
-F 2 "smd-star:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 3900 50  0001 C CNN
+F 2 "smd-sun:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2838 3900 50  0001 C CNN
 F 3 "~" H 2800 4050 50  0001 C CNN
 	1    2800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L smd-star:C C2
+L smd-sun:C C2
 U 1 1 5EFDE976
 P 4600 4050
 F 0 "C2" H 4715 4096 50  0000 L CNN
 F 1 "10uF" H 4715 4005 50  0000 L CNN
-F 2 "smd-star:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4638 3900 50  0001 C CNN
+F 2 "smd-sun:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4638 3900 50  0001 C CNN
 F 3 "~" H 4600 4050 50  0001 C CNN
 	1    4600 4050
 	1    0    0    -1  
@@ -211,78 +211,78 @@ Wire Wire Line
 Wire Wire Line
 	5650 2750 5650 2850
 $Comp
-L smd-star:LED D8
+L smd-sun:LED D8
 U 1 1 5EFF47F1
 P 7200 4200
 F 0 "D8" V 7300 4200 50  0000 R CNN
 F 1 "LED" V 7148 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 4200 50  0001 C CNN
 F 3 "~" H 7200 4200 50  0001 C CNN
 	1    7200 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D6
+L smd-sun:LED D6
 U 1 1 5EFF6FCA
 P 7600 4200
 F 0 "D6" V 7700 4200 50  0000 R CNN
 F 1 "LED" V 7548 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 4200 50  0001 C CNN
 F 3 "~" H 7600 4200 50  0001 C CNN
 	1    7600 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D5
+L smd-sun:LED D5
 U 1 1 5EFF7386
 P 7800 4200
 F 0 "D5" V 7900 4200 50  0000 R CNN
 F 1 "LED" V 7748 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4200 50  0001 C CNN
 F 3 "~" H 7800 4200 50  0001 C CNN
 	1    7800 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D4
+L smd-sun:LED D4
 U 1 1 5EFF91CC
 P 8000 4200
 F 0 "D4" V 8100 4200 50  0000 R CNN
 F 1 "LED" V 7948 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8000 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8000 4200 50  0001 C CNN
 F 3 "~" H 8000 4200 50  0001 C CNN
 	1    8000 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D3
+L smd-sun:LED D3
 U 1 1 5EFF91D6
 P 8200 4200
 F 0 "D3" V 8300 4200 50  0000 R CNN
 F 1 "LED" V 8148 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4200 50  0001 C CNN
 F 3 "~" H 8200 4200 50  0001 C CNN
 	1    8200 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D2
+L smd-sun:LED D2
 U 1 1 5EFF91E0
 P 8400 4200
 F 0 "D2" V 8500 4200 50  0000 R CNN
 F 1 "LED" V 8348 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 4200 50  0001 C CNN
 F 3 "~" H 8400 4200 50  0001 C CNN
 	1    8400 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D1
+L smd-sun:LED D1
 U 1 1 5EFF91EA
 P 8600 4200
 F 0 "D1" V 8700 4200 50  0000 R CNN
 F 1 "LED" V 8548 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 4200 50  0001 C CNN
 F 3 "~" H 8600 4200 50  0001 C CNN
 	1    8600 4200
 	0    -1   -1   0   
@@ -352,12 +352,12 @@ Connection ~ 7400 4450
 Wire Wire Line
 	7400 4450 7600 4450
 $Comp
-L smd-star:R R3
+L smd-sun:R R3
 U 1 1 5F0080E1
 P 6800 4600
 F 0 "R3" H 6870 4646 50  0000 L CNN
 F 1 "220R" H 6870 4555 50  0000 L CNN
-F 2 "smd-star:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 4600 50  0001 C CNN
+F 2 "smd-sun:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6730 4600 50  0001 C CNN
 F 3 "~" H 6800 4600 50  0001 C CNN
 	1    6800 4600
 	1    0    0    -1  
@@ -424,23 +424,23 @@ Wire Wire Line
 Wire Wire Line
 	7200 3850 7200 4050
 $Comp
-L smd-star:LED D9
+L smd-sun:LED D9
 U 1 1 5F0017E3
 P 7000 4200
 F 0 "D9" V 7100 4200 50  0000 R CNN
 F 1 "LED" V 6948 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 4200 50  0001 C CNN
 F 3 "~" H 7000 4200 50  0001 C CNN
 	1    7000 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L smd-star:LED D10
+L smd-sun:LED D10
 U 1 1 5F001F99
 P 6800 4200
 F 0 "D10" V 6900 4200 50  0000 R CNN
 F 1 "LED" V 6748 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 4200 50  0001 C CNN
 F 3 "~" H 6800 4200 50  0001 C CNN
 	1    6800 4200
 	0    -1   -1   0   
@@ -466,12 +466,12 @@ LED8
 Text Label 6200 3950 0    50   ~ 0
 LED9
 $Comp
-L smd-star:LED D7
+L smd-sun:LED D7
 U 1 1 5EFF6B7E
 P 7400 4200
 F 0 "D7" V 7500 4200 50  0000 R CNN
 F 1 "LED" V 7348 4083 50  0001 R CNN
-F 2 "smd-star:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 4200 50  0001 C CNN
+F 2 "smd-sun:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 4200 50  0001 C CNN
 F 3 "~" H 7400 4200 50  0001 C CNN
 	1    7400 4200
 	0    -1   -1   0   
@@ -479,7 +479,7 @@ $EndComp
 Text Label 6200 4050 0    50   ~ 0
 LED10
 $Comp
-L smd-star:BK-883 BT1
+L smd-sun:BK-883 BT1
 U 1 1 5EFF5419
 P 1500 3650
 F 0 "BT1" V 1454 3780 50  0000 L CNN
