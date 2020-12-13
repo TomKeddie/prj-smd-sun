@@ -96,4 +96,10 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
 #End Doc Library
